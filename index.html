@@ -1,2 +1,182 @@
 <html>
+<head>
+<style>
+body {
+	margin: 0;
+	font-family: 'Arial';
+	font-size: 13px;
+}
+dt{
+ 	width: 84px;
+ 	float: left;
+ 	margin-right: 5px;
+ 	word-wrap: break-word;
+ 	font-family: 'Arial-BoldMT', 'Arial Bold', 'Arial';
+ }
+ dl{
+ 	margin-bottom: 5px;
+ }
+ #container {
+ 	width: 960px;
+ }
+ #header {
+ 	background-color: #ccc;
+ 	height: 70px;
+ 	font-family: 'Arial';
+ }
+ #header h1{
+ 	position: absolute;
+ 	top: 5px;
+ 	cursor: pointer;
+ 	left: 10px;
+ 	float: left;
+ }
+#header-right {
+	float: right;
+	width: 400px;
+}
+#search {
+	position: absolute;
+	top: 20px;
+}
+input#search1 {
+	position: absolute;
+	width: 185px;
+	height: 25px;
+	font-family: 'ArialMT', 'Arial';
+	font-weight: 400;
+	font-style: normal;
+	font-size: 13px;
+	text-decoration: none;
+	color: #000000;
+	text-align: left;
+}
+ #search-button {
+ 	position: absolute;
+ 	left: 184px;
+ }
+#body {
+	width: 600px;
+	background-color: #ececec;
+	padding: 0px 10px;
+}
+#body input {
+	left: 0px;
+	top: 0px;
+	width: 414px;
+	height: 25px;
+	font-family: 'ArialMT', 'Arial';
+	font-weight: 400;
+	font-style: normal;
+	font-size: 13px;
+	text-decoration: none;
+	color: #000000;
+	text-align: left;
+ }
+ #header-bell {
+ 	float: right;
+	position: absolute;
+	left: 809px;
+	top: 25px;
+	outline: none;
+}
+#navigation {
+	white-space: nowrap;
+	width: 960px;
+	height: 32px;
+	background-color: #E6E6E6;
+} 
+#navigation-inner {
+	position: absolute;
+	left: 12px;
+	top: 65px;
+	font-family: 'ArialMT', 'Arial';
+	font-weight: bold;
+	font-style: normal;
+	font-size: 13px;
+	color: #333333;
+	line-height: normal;
+	cursor: pointer;
+}
+</style>
 
+</head>
+<body>
+<div id="container">
+	<div id="header">
+		<h1>LearnMixer</h1>
+		<div id="header-right">
+			<div id="search" >
+				<input type="text" name="search1" id="search1"/>
+				<input type="submit" value="Search" id="search-button"/>
+			</div >
+			<span id="header-bell"><img src="images/u405.png" width="20px" height="20px" /> </span>
+			<span style="font-size: 13px;font-weight: 400;position: absolute;left: 848px;top: 27px;">Help!</span>
+			<span style="font-size: 13px;font-weight: 400;position: absolute;left: 888px;top: 27px;color: rgb(153, 0, 0);cursor: pointer">Log out</span>
+		</div>
+	</div>
+	<div id="navigation">
+		<div id="navigation-inner">
+			<p><span>My Collections &gt; Math &gt; Math Mammoth &gt; Editing</span></p>
+		</div>	
+	</div>
+		<div id="main-container">
+			<div id="body">
+				<h2>Math Mammoth</h2>
+				<dl>
+					<dt>Description</dt>
+					<dd><textarea style="width:414px;height:60px" ></textarea></dd>
+				</dl>
+				<dl>
+					<dt>Subject</dt>
+					<dd><select name="Choose Subject" style="width:414px;height: 22px;";>
+					<option value="Language">Language</option>
+					<option value="-Estonian">-Estonian</option>
+					<option value="-Literature">-Literature</option>
+					<option value="-Russian">-Russian</option>
+					<option value="Foreign">Foreign</option></select></dd>
+				</dl>
+				<dl>
+					<dt>Topic</dt>
+					<dd><input type="text"> </dd>
+				</dl>
+				<dl style="height: 34px;">
+					<dt>Age Group</dt>
+					<dd><img src="images/u54_line.png" />
+					<div style="font-weight: normal;margin-top: 11px;"><span >0</span></div></dd>
+				</dl>
+				<dl>
+					<dt>Licence</dt>		
+					<dd><select name="Choose Subject" style="width:414px;height: 22px;";>
+					<option value="Language">Language</option>
+					<option value="-Estonian">-Estonian</option>
+					<option value="-Literature">-Literature</option>
+					<option value="-Russian">-Russian</option>
+					<option value="Foreign">Foreign</option></select></dd>
+				</dl>
+				<dl>
+					<dt>Tags</dt>
+					<dd><input type="text" /></dd>
+				</dl>
+					<div id="u64" class="ax_shape">
+	       			 <img id="u64_img" class="img " src="images/collections/u64.png">
+	       			 <div id="u65" class="text">
+	       			   <p><span>Tag</span></p>
+	       			 </div>
+	      			</div>
+				<dl>
+					<dt>Level of Engagement</dt>
+					<dd></dd>
+				</dl>
+				<dl>
+					<dt></dt>
+					<dd></dd>
+				</dl>
+			</div>
+
+		</div>
+</div>
+
+
+</body>
+</html>
